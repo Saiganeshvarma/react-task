@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+  
+    .main {
+      flex: 1;
+      padding: 20px;
+  
+      .dashboard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+  
+        .dashboard-cards, .statistics {
+          display: flex;
+          gap: 20px;
+        }
+  
+        .side-panels {
+          display: flex;
+          gap: 20px;
+        }
+      }
+    }
+  }
+  
